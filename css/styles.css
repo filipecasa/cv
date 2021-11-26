@@ -1,0 +1,210 @@
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+}
+
+
+h1 {
+    color:  #66BFBF;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+}
+
+h2 {
+    color:  #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 4%;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.top-container{
+    animation-name: slide_in;
+    animation-duration: 2s;
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.data {
+    text-decoration: underline;
+}
+
+
+.intro {
+    margin: auto;
+    width: 30%;
+}
+
+.contact-message{
+    margin: 40px auto 60px;
+    width: 40%;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    margin: 20px 0;
+}
+
+.top-cloud {
+    opacity: 0.5;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    opacity: 0.5;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.mountain {
+    height: 300px;
+    opacity: 0.2;
+    width: 100%;
+}
+
+.logo {
+    height: 100px;
+}
+
+.data-science {
+    float: left;
+    margin-right: 50px;
+    width: 25%;
+}
+
+.data-analysis {
+    float: right;
+    margin-left: 50px;
+    width: 25%;
+}
+
+.web-development {
+    float: left;
+    margin-right: 50px;
+    width: 25%;
+}
+
+.skill-row {
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+@keyframes slide_in {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%
+    }
+}
+
+@keyframes shrink {
+    0% {
+        height: 600px;
+    }
+    25% {
+        height: 500px;
+    }
+    50% {
+        height: 400px;
+    }
+    75% {
+        height: 300px;
+    }
+    100% {
+        height: 250px;
+    }
+}
+
+#logo-trainer {
+    height: 200px;
+}
+
+#profile-picture {
+    animation-name: shrink;
+    animation-duration: 1s;
+    border-radius: 100%;
+    height: 300px;
+}
